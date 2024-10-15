@@ -1,0 +1,112 @@
+body{
+    background-color:  #2596be;
+}
+
+.login{
+    margin: 0;
+    border-radius: 25px;
+    background-color: azure;
+    width: 10%;
+    padding: 50px;
+    padding-top: 25px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    box-shadow: 10px 10px 5px black;
+    display: block;
+}
+
+.login > *{
+    text-align: center;
+}
+.profile-box{
+    margin: 0;
+    border-radius: 25px;
+    background-color: azure;
+    width: 18%;
+    padding: 20px;
+    padding-top: 25px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    box-shadow: 10px 10px 5px black;
+    display: block;
+}
+
+.profile-box > *{
+    text-align: center;
+}
+.edit-profile-box{
+    margin: 0;
+    border-radius: 25px;
+    background-color: azure;
+    width: 26%;
+    padding: 20px;
+    padding-top: 25px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    box-shadow: 10px 10px 5px black;
+    display: block;
+}
+
+.edit-profile-box > *{
+    text-align: center;
+}
+.inputbox{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 75%;
+    background-color: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid gray;
+}
+.inputbox:focus{
+    outline: none;
+}
+.inputbox_edit{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 50%;
+    background-color: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid gray;
+}
+.inputbox_edit:focus{
+    outline: none;
+}
+.remember{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 75%;
+    float: left;
+    transform: translateX(15%);
+}
+.buttonslogin{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.profile-group{
+    margin-bottom: 10px;
+}
+.profile-group > *{
+    font-size: 25px;
+}
+
+#msg{
+    margin-top: 20px;
+}

@@ -1,0 +1,41 @@
+html{
+    font-family: sans-serif;
+}
+.button{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: transparent;
+    border-radius: 5px;
+    font-size: medium;
+    text-decoration: none;
+    height: 50%;
+}
+
+.buttonForA{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: transparent;
+    border-radius: 5px;
+    font-size: medium;
+    text-decoration: none;
+    height: 50%;
+}
+
+.error{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+.success{
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}

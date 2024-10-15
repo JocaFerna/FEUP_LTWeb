@@ -1,0 +1,177 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.25;
+  }
+  table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+  }
+  table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+  }
+  table tr {
+    border: 1px solid #ddd;
+    padding: .35em;
+  }
+  table tr:nth-child(even) {
+    background: #f8f8f8;  
+  }
+  table th,
+  table td {
+    padding: .625em;
+    text-align: left;
+  }
+  table th {
+    background: #999;
+    color: #fff;
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  table td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .row-info{
+    margin: 1.5vh 0vh;
+  }
+
+  .ban-button{
+    color:#f8f8f8;
+    background-color: #D82A27;
+    border: none;
+    padding: 1vh;
+    margin: 0vh 1.3vh;
+    border-radius: 10px;
+    font-size: 3vh;
+  }
+
+  .delete-button{
+    color:#f8f8f8;
+    background-color: #D82A27;
+    border: none;
+    padding: 1vh;
+    margin: 0vh 1.3vh;
+    border-radius: 10px;
+    font-size: 3vh;
+  }
+
+  .promote-button, .add-button{
+    color: #f8f8f8;
+    background-color: #7DD827;
+    border: none;
+    padding: 1vh;
+    margin: 0vh 1.3vh;
+    border-radius: 10px;
+    font-size: 3vh;
+  }
+
+  .demote-button, .edit-button{
+    color: #f8f8f8;
+    background-color: #D88227;
+    border: none;
+    padding: 1vh;
+    margin: 0vh 1.3vh;
+    border-radius: 10px;
+    font-size: 3vh;
+  }
+
+  #create-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .add-button{
+    margin-left: 6vh;
+  }
+
+ /* Modal styles */
+#modal-category {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+#modal-size {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+#modal-condition {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* Close button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+} 
+
+#edit-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content-edit {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+

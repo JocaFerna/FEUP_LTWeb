@@ -1,0 +1,61 @@
+.top{
+    margin-left: 20px;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.delete{
+    float: left;
+    margin-left: 45%;
+    font-size: 50px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+}
+.delete:hover{
+    background-color: gainsboro;
+}
+.deletcard{
+    display: block;
+}
+.form{
+    margin: auto;
+    width: 25%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.form input{
+    width: 500px;
+    max-width: 100%;
+    height: 25%;
+}
+.form select{
+    width: auto;
+    width: 500px;
+    max-width: 100%;
+    height: 25%;
+}
+.form select:focus{
+    outline-width: 0;
+}
+.form input:focus{
+    outline: 0;
+}
+.row{
+    display: inline;
+}
+.pricel{
+    margin-left: 10px;
+    font-size: 30px;
+}
+.form button{
+    width: 100%; /* Can be in percentage also. */
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    position: relative;
+}
+
